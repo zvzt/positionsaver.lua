@@ -1,3 +1,5 @@
+print("Zot logged the coordinates.")
+
 local Players=game:GetService("Players")
 local UIS=game:GetService("UserInputService")
 local Workspace=game:GetService("Workspace")
