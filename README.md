@@ -1,10 +1,6 @@
 # Position Saver
 
-A Roblox Luau utility for recording your current position and full `CFrame`, with an Onyx-style control panel.
-
-## Preview
-
-<img width="955" height="219" alt="Position Saver console output" src="https://github.com/user-attachments/assets/5dd11e32-a050-4c11-88cf-c4e570215c05" />
+A Roblox Luau utility for recording your current position and full `CFrame`, with an clean, draggable, minimizable interface.
 
 ## Usage
 
@@ -19,7 +15,7 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/zvzt/positionsaver.lu
 - Prints the complete `CFrame.new(...)` value to the console
 - Copy Position button when `setclipboard` is available
 - Copy CFrame button when `setclipboard` is available
-- Onyx-style draggable interface
+- clean, draggable, minimizable interface
 - Header-only minimize/restore behavior
 - Screen-edge drag clamping with `-57 / 57` vertical offsets
 - Rerun cleanup prevents duplicate **P** key handlers
