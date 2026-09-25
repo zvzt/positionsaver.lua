@@ -1,6 +1,6 @@
 # Position Saver
 
-A small Roblox Luau utility that prints your current position and full `CFrame` to the console.
+A Roblox Luau utility for recording your current position and full `CFrame`, with an Onyx-style control panel.
 
 ## Preview
 
@@ -12,14 +12,17 @@ A small Roblox Luau utility that prints your current position and full `CFrame` 
 loadstring(game:HttpGet("https://raw.githubusercontent.com/zvzt/positionsaver.lua/refs/heads/main/posrecorder.lua"))()
 ```
 
-## Controls
+## Features
 
-Press **P** to record your current position.
-
-The script prints:
-
-- X, Y, and Z coordinates
-- The complete `CFrame.new(...)` value, including rotation
+- Press **P** or click **Record** to capture the current position
+- Displays the latest X, Y, and Z values in the UI
+- Prints the complete `CFrame.new(...)` value to the console
+- Copy Position button when `setclipboard` is available
+- Copy CFrame button when `setclipboard` is available
+- Onyx-style draggable interface
+- Header-only minimize/restore behavior
+- Screen-edge drag clamping with `-57 / 57` vertical offsets
+- Rerun cleanup prevents duplicate **P** key handlers
 
 ## Files
 
