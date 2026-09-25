@@ -1,6 +1,6 @@
 # Position Saver
 
-A Roblox Luau utility for recording your current position and full `CFrame`, with an clean, draggable, minimizable interface.
+A Roblox Luau utility for recording your current position and full `CFrame`, with a clean, draggable, minimizable interface.
 
 ## Usage
 
